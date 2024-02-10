@@ -9,4 +9,4 @@ def get_text_messages(message):
     else:
         bot.send_message(message.from_user.id, "Мой разраб ещё работает над этой функцией")
 
-bot.infinity_polling()
+bot.polling(none_stop=True, interval=10)
