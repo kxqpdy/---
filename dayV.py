@@ -7,6 +7,7 @@ valen.penup()
 valen.goto(35, -50)
 valen.pendown()
 valen.color("red", "pink")
+
 def serdce():  
     valen.begin_fill()
     valen.left(160)
@@ -25,7 +26,7 @@ def write():
     valen.pendown()
 
 
-lefth()
+serdce()
 write()
 
 valen.ht()
